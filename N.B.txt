@@ -1,0 +1,27 @@
+objectif du projet (cotés machine learning):
+
+Le projet vise à analyser les paroles des chansons de Rai produites entre 2005 et 2025 afin d’identifier automatiquement les événements historiques auxquels elles font référence. L’objectif est que le système propose des hypothèses sur les événements évoqués dans chaque texte, sans intervention manuelle.
+
+Période ciblée et date de sortie
+Seuls les événements historiques de l’Algérie sur la période 2005–2025 sont pris en compte. La date de sortie de chaque chanson est utilisée pour filtrer les événements plausibles : une chanson publiée en 2010 ne peut pas se référer à un événement survenu en 2012.
+
+Organisation et traitement des données
+Les événements et chansons sont structurés dans des tableaux ou DataFrames. Chaque événement comporte des informations telles que l’année et le type (politique, social, culturel). Les textes sont préparés pour l’analyse afin d’extraire des mots-clés ou concepts pertinents pour faire le lien avec les événements.
+
+Approche générale
+
+Constituer une base d’événements historiques pertinents pour 2005–2025.
+
+Extraire des textes et dates de sortie des chansons.
+
+Filtrer les événements en fonction de la date de sortie.
+
+Comparer le contenu des textes avec les descriptions des événements pour générer des hypothèses sur les références historiques.
+
+Avantages
+
+Analyse limitée à une période réaliste et ciblée.
+
+Automatisation de l’identification des événements pour réduire le travail manuel.
+
+Prototype évolutif pouvant être amélioré avec plus de chansons ou d’événements.
